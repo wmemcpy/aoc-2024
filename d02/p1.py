@@ -27,6 +27,4 @@ with open('input.txt') as f:
 	puzzle_input = f.read()
 
 reports = parse_input(puzzle_input)
-
-safe_report_count = count_safe_reports(reports)
-print(f"Number of safe reports: {safe_report_count}")
+print(count_safe_reports(reports))
